@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+body {
+  background-image: url("../images/background.jpeg");
+  padding: 5vw 15vw;
+}
+
+h1 {
+  font-family: "Gochi Hand", cursive;
+  font-size: 200px;
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 30px;
+}
+
+.box {
+  width: 100%;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 80px;
+  border: 5px solid black;
+}
+
+.text-box {
+  padding: 100px 0;
+
+  h1 {
+    font-size: 150px;
+    text-align: center;
+    color: blue;
+  }
+}
+
+header {
+  padding: 100px 30px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  text-align: center;
+}
